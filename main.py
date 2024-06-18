@@ -32,7 +32,7 @@ def translate_word(word):
 
 # функция с игрой
 def word_game():
-    print("Добро пожаловать в игру! ")
+    print("Добро пожаловать в игру!\n")
     while True:
         # Создаём функцию, чтобы использовать результат функции-словаря
         word_dict = get_english_words()
@@ -54,7 +54,7 @@ def word_game():
         # Создаём возможность закончить игру
         play_again = input("Хотите сыграть еще раз? y/n  ")
         if play_again != "y":
-            print("Спасибо за игру!  ")
+            print("\nСпасибо за игру!  ")
             break
 
 word_game()
